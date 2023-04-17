@@ -1,0 +1,18 @@
+GET http://localhost:3000/students
+
+###
+
+GET http://localhost:3000/students/6437d2bd68615b8936f65b48
+
+###
+
+POST http://localhost:3000/students
+Content-Type: application/json
+{
+    "name":"shubham",
+    "email": "you@gmail.com",
+    "phone": "9876543213",
+    "dfb": "14022003",
+    "gender": "male",
+    "course": "MECH"
+}
